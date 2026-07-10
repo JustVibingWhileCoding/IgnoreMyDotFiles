@@ -3,9 +3,17 @@
     { "name": "xorg-server-xwayland", "version": "last" },
     { "name": "xorg-xhost", "version": "last" },
     { "name": "xwayland-satellite", "version": "last" },
+    { "name": "xdg-desktop-portal-gnome", "version": "last" },
     { "name": "niri", "version": "last" },
     { "name": "hyprland", "version": "last" },
     { "name": "mangowm", "version": "last" },
-    { "name": "ddcutil", "version": "last" }
+    { "name": "ddcutil", "version": "last" },
+    { "name": "ttf-jetbrains-mono", "version": "last" },
+    { "name": "ttf-jetbrains-mono-nerd", "version": "last" },
+    { "name": "starship", "version": "last" },
+    { "name": "zen-browser", "version": "last" },
+    { "name": "vesktop", "version": "last" },
+    { "name": "nautilus", "version": "last" },
+    { "name": "kitty", "version": "last" }
   ]
 }
