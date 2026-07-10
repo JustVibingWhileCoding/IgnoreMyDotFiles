@@ -2,6 +2,9 @@
   "packages": [
     { "name": "xorg-server-xwayland", "version": "last" },
     { "name": "xorg-xhost", "version": "last" },
-    { "name": "xwayland-satellite", "version": "last" }
+    { "name": "xwayland-satellite", "version": "last" },
+    { "name": "niri", "version": "last" },
+    { "name": "hyprland", "version": "last" },
+    { "name": "mangowm", "version": "last" }
   ]
 }
