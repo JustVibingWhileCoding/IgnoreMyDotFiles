@@ -5,6 +5,7 @@
     { "name": "xwayland-satellite", "version": "last" },
     { "name": "niri", "version": "last" },
     { "name": "hyprland", "version": "last" },
-    { "name": "mangowm", "version": "last" }
+    { "name": "mangowm", "version": "last" },
+    { "name": "ddcutil", "version": "last" }
   ]
 }
