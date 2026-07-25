@@ -15,6 +15,7 @@
     { "name": "vesktop", "version": "last" },
     { "name": "nautilus", "version": "last" },
     { "name": "kitty", "version": "last" },
-    { "name": "playerctl", "version": "last" }
+    { "name": "playerctl", "version": "last" },
+    { "name": "cava", "version": "last" }
   ]
 }
