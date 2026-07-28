@@ -1,4 +1,14 @@
+[brightness]
+enable_ddcutil     = true
+ignore_mmids       = []     # e.g. ["ACI-ROG_PG279Q-10220"] - skip in all ddcutil commands
+minimum_brightness = 0.0    # never let brightness drop below this floor (0.0 to 1.0)
+sync_all_monitors = false   # if set to true, makes every display have the same brightness
+
 [backdrop]
 enabled        = true
 blur_intensity = 0.5    # 0.0 = no blur, 1.0 = maximum blur
 tint_intensity = 0.3    # 0.0 = no tint, 1.0 = fully opaque tint
+
+[theme.templates.user.Neo-Colors-Noctalia]
+input_path  = "$XDG_CONFIG_HOME/noctalia/templates/Neo-Colors-Noctalia.css"
+output_path = "$XDG_CONFIG_HOME/noctalia/output/Neo-Colors-Noctalia.css"
