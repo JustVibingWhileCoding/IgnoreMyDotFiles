@@ -1,0 +1,56 @@
+/* Noctalia v5 Color Tokens Template */
+:root {
+  /* Core Backgrounds */
+  --zentalia-background: {{ colors.background.default.hex }};
+  --zentalia-on-background: {{ colors.on_background.default.hex }};
+
+  /* Surfaces & Containers */
+  --zentalia-surface: {{ colors.surface.default.hex }};
+  --zentalia-surface-dim: {{ colors.surface_dim.default.hex }};
+  --zentalia-surface-bright: {{ colors.surface_bright.default.hex }};
+  --zentalia-surface-variant: {{ colors.surface_variant.default.hex }};
+  --zentalia-surface-container-lowest: {{ colors.surface_container_lowest.default.hex }};
+  --zentalia-surface-container-low: {{ colors.surface_container_low.default.hex }};
+  --zentalia-surface-container: {{ colors.surface_container.default.hex }};
+  --zentalia-surface-container-high: {{ colors.surface_container_high.default.hex }};
+  --zentalia-surface-container-highest: {{ colors.surface_container_highest.default.hex }};
+
+  /* Inverse Surfaces */
+  --zentalia-inverse-surface: {{ colors.inverse_surface.default.hex }};
+  --zentalia-inverse-on-surface: {{ colors.inverse_on_surface.default.hex }};
+  --zentalia-inverse-primary: {{ colors.inverse_primary.default.hex }};
+
+  /* Text / On-Surface */
+  --zentalia-on-surface: {{ colors.on_surface.default.hex }};
+  --zentalia-on-surface-variant: {{ colors.on_surface_variant.default.hex }};
+
+  /* Primary Accents */
+  --zentalia-primary: {{ colors.primary.default.hex }};
+  --zentalia-on-primary: {{ colors.on_primary.default.hex }};
+  --zentalia-primary-container: {{ colors.primary_container.default.hex }};
+  --zentalia-on-primary-container: {{ colors.on_primary_container.default.hex }};
+
+  /* Secondary Accents */
+  --zentalia-secondary: {{ colors.secondary.default.hex }};
+  --zentalia-on-secondary: {{ colors.on_secondary.default.hex }};
+  --zentalia-secondary-container: {{ colors.secondary_container.default.hex }};
+  --zentalia-on-secondary-container: {{ colors.on_secondary_container.default.hex }};
+
+  /* Tertiary Accents */
+  --zentalia-tertiary: {{ colors.tertiary.default.hex }};
+  --zentalia-on-tertiary: {{ colors.on_tertiary.default.hex }};
+  --zentalia-tertiary-container: {{ colors.tertiary_container.default.hex }};
+  --zentalia-on-tertiary-container: {{ colors.on_tertiary_container.default.hex }};
+
+  /* Borders & Utility */
+  --zentalia-outline: {{ colors.outline.default.hex }};
+  --zentalia-outline-variant: {{ colors.outline_variant.default.hex }};
+  --zentalia-shadow: {{ colors.shadow.default.hex }};
+  --zentalia-scrim: {{ colors.scrim.default.hex }};
+
+  /* Status Colors */
+  --zentalia-error: {{ colors.error.default.hex }};
+  --zentalia-on-error: {{ colors.on_error.default.hex }};
+  --zentalia-error-container: {{ colors.error_container.default.hex }};
+  --zentalia-on-error-container: {{ colors.on_error_container.default.hex }};
+}
