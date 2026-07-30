@@ -15,3 +15,7 @@ tint_intensity = 0.3    # 0.0 = no tint, 1.0 = fully opaque tint
 [theme.templates.user.Zentalia]
 input_path  = "$XDG_CONFIG_HOME/noctalia/templates/CSS-Colors-Template.css"
 output_path = "$XDG_CONFIG_HOME/noctalia/output/CSS-Colors-Template.css"
+
+[theme.templates.user.Obsidian]
+input_path  = "$XDG_CONFIG_HOME/noctalia/templates/Obsidian.css"
+output_path = "$XDG_CONFIG_HOME/noctalia/output/Obsidian.css"
