@@ -54,6 +54,16 @@
       "name": "nautilus",
       "version": "last",
       "package manager": "pacman"
+    },
+    {
+      "name": "mpv",
+      "version": "last",
+      "package manager": "pacman"
+    },
+    {
+      "name": "btop",
+      "version": "last",
+      "package manager": "pacman"
     }
   ]
 }
