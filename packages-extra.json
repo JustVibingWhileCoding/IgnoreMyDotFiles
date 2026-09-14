@@ -17,6 +17,11 @@
             "dependencies": [
                 { "name": "vmware-keymaps", "version": "last", "package manager": "yay" }
             ]
+        },
+        {
+            "name": "helium-browser",
+            "version": "last",
+            "package manager": "pacman"
         }
     ]
 }
