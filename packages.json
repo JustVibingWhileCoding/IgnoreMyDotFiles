@@ -6,21 +6,6 @@
       "package manager": "pacman"
     },
     {
-      "name": "flatpak",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "gnome-keyring",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "eza",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
       "name": "xorg-xhost",
       "version": "last",
       "package manager": "pacman"
@@ -31,69 +16,38 @@
       "package manager": "pacman"
     },
     {
-      "name": "xwayland-satellite",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "xdg-desktop-portal",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "xdg-desktop-portal-hyprland",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "xdg-desktop-portal-gtk",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "xdg-desktop-portal-gnome",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
       "name": "noctalia",
       "version": "last",
-      "package manager": "pacman"
+      "package manager": "pacman",
+      "dependencies": [
+        { "name": "gpu-screen-recorder", "version": "last", "package manager": "flatpak" },
+        { "name": "udiskie", "version": "last", "package manager": "pacman" },
+        { "name": "udisks2", "version": "last", "package manager": "pacman" },
+        { "name": "ddcutil", "version": "last", "package manager": "pacman" }
+      ]
     },
     {
       "name": "niri",
       "version": "last",
-      "package manager": "pacman"
+      "package manager": "pacman",
+      "dependencies": [
+        { "name": "xdg-desktop-portal", "version": "last", "package manager": "pacman" },
+        { "name": "xdg-desktop-portal-gtk", "version": "last", "package manager": "pacman" },
+        { "name": "xdg-desktop-portal-gnome", "version": "last", "package manager": "pacman" },
+        { "name": "xwayland-satellite", "version": "last", "package manager": "pacman" }
+      ]
     },
     {
-      "name": "hyprland",
+      "name": "kitty",
       "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "mangowm",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "ddcutil",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "ttf-jetbrains-mono",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "ttf-jetbrains-mono-nerd",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "starship",
-      "version": "last",
-      "package manager": "pacman"
+      "package manager": "pacman",
+      "dependencies": [
+        { "name": "ttf-jetbrains-mono", "version": "last", "package manager": "pacman" },
+        { "name": "ttf-jetbrains-mono-nerd", "version": "last", "package manager": "pacman" },
+        { "name": "starship", "version": "last", "package manager": "pacman" },
+        { "name": "eza", "version": "last", "package manager": "pacman" },
+        { "name": "cava", "version": "last", "package manager": "pacman" }
+      ]
     },
     {
       "name": "zen-browser",
@@ -111,44 +65,19 @@
       "package manager": "pacman"
     },
     {
-      "name": "kitty",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
       "name": "playerctl",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "cava",
       "version": "last",
       "package manager": "pacman"
     },
     {
       "name": "obs-studio",
       "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "obs-studio-plugin-browser",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "obs-vkcapture",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "lib32-obs-vkcapture",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "gpu-screen-recorder",
-      "version": "last",
-      "package manager": "flatpak"
+      "package manager": "pacman",
+      "dependencies": [
+        { "name": "obs-studio-plugin-browser", "version": "last", "package manager": "pacman" },
+        { "name": "lib32-obs-vkcapture", "version": "last","package manager": "pacman" },
+        { "name": "obs-vkcapture", "version": "last", "package manager": "pacman" }
+      ]
     },
     {
       "name": "downgrade",
@@ -175,11 +104,7 @@
       "version": "last",
       "package manager": "yay",
       "dependencies": [
-        {
-          "name": "vmware-keymaps",
-          "version": "last",
-          "package manager": "yay"
-        }
+        { "name": "vmware-keymaps", "version": "last", "package manager": "yay" }
       ]
     }
   ]
