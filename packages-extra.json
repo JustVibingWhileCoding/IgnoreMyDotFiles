@@ -1,0 +1,22 @@
+{
+    "packages": [
+        {
+            "name": "obs-studio",
+            "version": "last",
+            "package manager": "pacman",
+            "dependencies": [
+                { "name": "obs-studio-plugin-browser", "version": "last", "package manager": "pacman" },
+                { "name": "lib32-obs-vkcapture", "version": "last","package manager": "pacman" },
+                { "name": "obs-vkcapture", "version": "last", "package manager": "pacman" }
+            ]
+        },
+        {
+            "name": "vmware-workstation",
+            "version": "last",
+            "package manager": "yay",
+            "dependencies": [
+                { "name": "vmware-keymaps", "version": "last", "package manager": "yay" }
+            ]
+        }
+    ]
+}
