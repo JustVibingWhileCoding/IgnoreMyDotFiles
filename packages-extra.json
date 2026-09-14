@@ -14,6 +14,7 @@
             "name": "vmware-workstation",
             "version": "last",
             "package manager": "yay",
+            "needs_restart": true,
             "dependencies": [
                 { "name": "vmware-keymaps", "version": "last", "package manager": "yay" }
             ],
@@ -37,6 +38,26 @@
         },
         {
             "name": "zen-browser",
+            "version": "last",
+            "package manager": "pacman"
+        },
+        {
+            "name": "heroic-game-launcher-bin",
+            "version": "last",
+            "package manager": "pacman"
+        },
+        {
+            "name": "visual-studio-code-bin",
+            "version": "last",
+            "package manager": "yay"
+        },
+        {
+            "name": "steam",
+            "version": "last",
+            "package manager": "pacman"
+        },
+        {
+            "name": "prismlauncher",
             "version": "last",
             "package manager": "pacman"
         }
