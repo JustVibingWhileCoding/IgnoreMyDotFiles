@@ -50,16 +50,6 @@
       ]
     },
     {
-      "name": "zen-browser",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "vesktop",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
       "name": "nautilus",
       "version": "last",
       "package manager": "pacman"

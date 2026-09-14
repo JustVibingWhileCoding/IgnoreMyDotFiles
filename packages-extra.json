@@ -22,6 +22,11 @@
             "name": "helium-browser",
             "version": "last",
             "package manager": "pacman"
+        },
+        {
+            "name": "zen-browser",
+            "version": "last",
+            "package manager": "pacman"
         }
     ]
 }
