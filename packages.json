@@ -9,6 +9,7 @@
     { "name": "xdg-desktop-portal-hyprland", "version": "last" },
     { "name": "xdg-desktop-portal-gtk", "version": "last" },
     { "name": "xdg-desktop-portal-gnome", "version": "last" },
+    { "name": "noctalia", "version": "last" },
     { "name": "niri", "version": "last" },
     { "name": "hyprland", "version": "last" },
     { "name": "mangowm", "version": "last" },
