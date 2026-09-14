@@ -16,6 +16,10 @@
             "package manager": "yay",
             "dependencies": [
                 { "name": "vmware-keymaps", "version": "last", "package manager": "yay" }
+            ],
+            "commands": [
+                { "when": "after-restart", "command": "sudo systemctl enable --now vmware-networks.service vmware-usbarbitrator.service" },
+                { "when": "after-restart", "command": "sudo modprobe -a vmw_vmci vmmon"}
             ]
         },
         {
