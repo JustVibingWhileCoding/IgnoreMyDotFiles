@@ -31,8 +31,8 @@
     { "name": "lib32-obs-vkcapture", "version": "last", "package manager": "pacman" },
     { "name": "gpu-screen-recorder", "version": "last", "package manager": "flatpak" },
     { "name": "downgrade", "version": "last", "package manager": "pacman" },
-    { "name": "docker", "version":="last", "package manager":="pacman" },
-    { "name":="docker-compose", "version":="last", "package manager":="pacman" },
-    { "name":="helium-browser", "version":="last", "package manager":="pacman" }
+    { "name": "docker", "version": "last", "package manager": "pacman" },
+    { "name": "docker-compose", "version": "last", "package manager": "pacman" },
+    { "name": "helium-browser", "version": "last", "package manager": "pacman" }
   ]
 }
