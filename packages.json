@@ -6,12 +6,7 @@
       "package manager": "pacman"
     },
     {
-      "name": "xorg-xhost",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "xorg-server-xwayland",
+      "name": "downgrade",
       "version": "last",
       "package manager": "pacman"
     },
@@ -42,6 +37,7 @@
       "version": "last",
       "package manager": "pacman",
       "dependencies": [
+        { "name": "fish", "version": "last", "package manager": "pacman" },
         { "name": "ttf-jetbrains-mono", "version": "last", "package manager": "pacman" },
         { "name": "ttf-jetbrains-mono-nerd", "version": "last", "package manager": "pacman" },
         { "name": "starship", "version": "last", "package manager": "pacman" },
@@ -56,21 +52,6 @@
     },
     {
       "name": "playerctl",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "downgrade",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "docker",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "docker-compose",
       "version": "last",
       "package manager": "pacman"
     }

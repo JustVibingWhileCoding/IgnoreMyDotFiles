@@ -19,6 +19,14 @@
             ]
         },
         {
+            "name": "docker",
+            "version": "last",
+            "package manager": "pacman",
+            "dependencies": [
+                { "name": "docker-compose", "version": "last", "package manager": "pacman" }
+            ]
+        },
+        {
             "name": "helium-browser",
             "version": "last",
             "package manager": "pacman"
