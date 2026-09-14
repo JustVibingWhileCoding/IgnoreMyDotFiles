@@ -11,6 +11,11 @@
       "package manager": "pacman"
     },
     {
+      "name": "playerctl",
+      "version": "last",
+      "package manager": "pacman"
+    },
+    {
       "name": "noctalia",
       "version": "last",
       "package manager": "pacman",
@@ -47,11 +52,6 @@
     },
     {
       "name": "nautilus",
-      "version": "last",
-      "package manager": "pacman"
-    },
-    {
-      "name": "playerctl",
       "version": "last",
       "package manager": "pacman"
     }
